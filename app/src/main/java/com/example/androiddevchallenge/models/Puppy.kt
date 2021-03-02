@@ -29,17 +29,17 @@ data class Puppy(
     val breed: String,
     val background: Color,
     val hometown: String,
-    val isFavorite:Boolean
+    val isFavorite: Boolean
 )
 /**
  * Static data
  */
 
 val puppiesData = listOf(
-    Puppy(1, "Bella", R.drawable.labroder, "♂️", "8 months", "Labrador", lightBlue, "Tokyo",true),
-    Puppy(2, "Ulrica", R.drawable.corgi, "♀️", "2 years", "Corgi", lightPink, "Osaka",false),
-    Puppy(3, "Kaala", R.drawable.dalmatian, "♂️", "9 months", "Dalmatian", lightBlue, "Bengaluru",false),
-    Puppy(4, "Chicoo", R.drawable.greyhound, "♀️", "2 months", "Greyhound", lightPink, "London",true),
-    Puppy(5, "Maru", R.drawable.bulldog, "♂️", "1 year", "Bulldog", lightBlue, "New York",false),
-    Puppy(6, "Coco", R.drawable.french_bulldog, "♂️", "3 years", "French Bulldog", lightBlue, "Paris",true)
+    Puppy(1, "Bella", R.drawable.labroder, "♂️", "8 months", "Labrador", lightBlue, "Tokyo", true),
+    Puppy(2, "Ulrica", R.drawable.corgi, "♀️", "2 years", "Corgi", lightPink, "Osaka", false),
+    Puppy(3, "Kaala", R.drawable.dalmatian, "♂️", "9 months", "Dalmatian", lightBlue, "Bengaluru", false),
+    Puppy(4, "Chicoo", R.drawable.greyhound, "♀️", "2 months", "Greyhound", lightPink, "London", true),
+    Puppy(5, "Maru", R.drawable.bulldog, "♂️", "1 year", "Bulldog", lightBlue, "New York", false),
+    Puppy(6, "Coco", R.drawable.french_bulldog, "♂️", "3 years", "French Bulldog", lightBlue, "Paris", true)
 )

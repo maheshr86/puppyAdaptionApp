@@ -78,7 +78,7 @@ fun PuppyInfo(puppy: Puppy) {
                     .fillMaxWidth()
                     .wrapContentSize(Alignment.CenterEnd)
                     .padding(top = 5.dp, end = 16.dp),
-                tint = if(puppy.isFavorite)Color.Red else Color.LightGray,
+                tint = if (puppy.isFavorite)Color.Red else Color.LightGray,
             )
         }
         Text(
