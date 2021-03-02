@@ -1,7 +1,6 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
-    id 'kotlin-parcelize'
 }
 
 android {
@@ -53,6 +52,7 @@ android {
     }
 
     composeOptions {
+        kotlinCompilerVersion "1.4.30"
         kotlinCompilerExtensionVersion compose_version
     }
 
